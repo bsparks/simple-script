@@ -28,8 +28,8 @@ export enum TokenType {
     RBRACKET = ']',
     COLON = ':',
     // we need to have special annoying syntax to support handlebars identifiers
-    OPEN_BLOCK = '{>',
-    CLOSE_BLOCK = '<}',
+    OPEN_BLOCK = '<<',
+    CLOSE_BLOCK = '>>',
     // Keywords
     FUNCTION = 'FUNCTION',
     LET = 'LET',
